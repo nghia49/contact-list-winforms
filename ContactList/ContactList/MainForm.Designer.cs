@@ -62,6 +62,7 @@
             this.Text = "Danh sách liên hệ";
             this.ResumeLayout(false);
             this.PerformLayout();
+
         }
 
         #endregion
