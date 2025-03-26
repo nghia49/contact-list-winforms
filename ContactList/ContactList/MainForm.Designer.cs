@@ -49,7 +49,7 @@
             this.button1.TabIndex = 1;
             this.button1.Text = "Thêm liên hệ";
             this.button1.UseVisualStyleBackColor = true;
-           
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // MainForm
             // 
@@ -62,6 +62,7 @@
             this.Text = "Danh sách liên hệ";
             this.ResumeLayout(false);
             this.PerformLayout();
+
         }
 
         #endregion
