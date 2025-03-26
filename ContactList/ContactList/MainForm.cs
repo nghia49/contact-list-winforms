@@ -22,14 +22,7 @@ namespace ContactList
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            // Tạo một instance của AddContactForm
-            AddContactForm addContactForm = new AddContactForm();
-
-            // Hiển thị form theo kiểu Dialog (cửa sổ bật lên, chờ đóng mới tiếp tục)
-            addContactForm.ShowDialog();
-        }
+        
 
     }
 }
