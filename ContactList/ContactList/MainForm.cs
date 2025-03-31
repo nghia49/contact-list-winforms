@@ -10,10 +10,6 @@ namespace ContactList
             InitializeComponent();
         }
 
-        private void btnThemlienhe_Click(object sender, EventArgs e)
-        {
-            AddContactForm addContactForm = new AddContactForm();
-            addContactForm.ShowDialog(); // Mở form dưới dạng modal
-        }
+        
     }
 }
